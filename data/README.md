@@ -1,4 +1,4 @@
-The file, **`Table_I.txt`**, provides the proxy-field values used in the analysis for all Cepheid and TRGB host galaxies across multiple cutoff radii $R_{\max}$.
+The file, **[`Table_I.txt`](/data/Table_I.txt)**, provides the proxy-field values used in the analysis for all Cepheid and TRGB host galaxies across multiple cutoff radii $R_{\max}$.
 
 Each entry corresponds to a galaxy and a chosen cutoff radius $R_{\max}$, with the following columns:
 
