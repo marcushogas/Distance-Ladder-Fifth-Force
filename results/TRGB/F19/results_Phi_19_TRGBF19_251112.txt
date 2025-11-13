@@ -1,0 +1,6 @@
+Phi0 = -4.37 + 0.47 - 0.07
+relGmax = 0.091 + 0.136 - 0.071
+chi2 = 3566.6
+chi2 (reduced) = 1.02
+Delta AIC = -3.2
+Delta BIC = -16.1
