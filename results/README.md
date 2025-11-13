@@ -12,7 +12,7 @@ The folder structure is:
 Each dataset–model combination includes the following files:
 
 - **`results_*.txt`**  
-  Contains the posterior estimates of the fifth-force parameters $(p_0, \Delta G / G_\mathrm{N}|_\mathrm{max})$, their uncertainties (68% CL), and model-selection metrics ($\chi^2$, $\Delta$AIC, $\Delta$BIC).
+  Contains the posterior estimates of the fifth-force parameters $(p_0, \Delta G / G_\mathrm{N}|_\mathrm{max})$, their uncertainties (68% CL), and model-selection metrics ($\chi^2$, $\Delta\mathrm{AIC}$, $\Delta\mathrm{BIC}$).
 
 - **`diagnostics_*.txt`**  
   Reports MCMC diagnostics, including runtime, number of walkers, effective sample sizes, and auto-correlation estimates.
