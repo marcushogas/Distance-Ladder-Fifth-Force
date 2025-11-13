@@ -1,7 +1,7 @@
 # Figures
 
 This folder contains the posterior plots generated for the screened fifth-force analysis.  
-The figures illustrate the inferred distributions of the model parameters $(p_0,\, \Delta G / G_\mathrm{N}|_\mathrm{max})$ under different calibration settings of the distance ladder.
+The figures illustrate the inferred distributions of the model parameters $(p_0,\Delta G/G_\mathrm{N}|_\mathrm{max})$ under different calibration settings of the distance ladder.
 
 The folder structure is organized by analysis variant:
 
