@@ -33,6 +33,21 @@ df = pd.read_csv("data/Table_I.txt", sep="\t", comment="#")
 ---
 
 ## Attribution
-If you use this code or method, please cite:  
+If you use the data or method presented in this work, please cite: 
 > arXiv:251X.XXXXX
 
+This repository compiles both original data products and external datasets gathered for reproducibility.  
+If you make use of specific external components, please also cite the corresponding original sources:
+
+- **SH0ES distance-ladder data:**  
+  [Riess et al. (2022), *ApJL* 934, L7](https://iopscience.iop.org/article/10.3847/2041-8213/ac5c5b) — main SH0ES publication  
+  SH0ES data release: [PantheonPlusData GitHub](https://github.com/PantheonPlusSH0ES/DataRelease)  
+  Reformatted dataset used here: [Högås et al. (2024), *MNRAS* 528, 2](https://academic.oup.com/mnras/article/538/2/883/8026895), [Cepheid-Distance-Ladder-Data GitHub](https://github.com/MarcusHogas/SH0ES-Reformatted)
+
+- **TRGB distance calibrations:**  
+  Freedman et al. (2020), *ApJ* 891, 57  
+  Freedman et al. (2023), *ApJ* 955, 33  
+  Anand et al. (2021), *ApJ* 919, 16  
+  Hoyt et al. (2023), *ApJ* 956, 64
+
+These sources provide the foundational measurements on which the present analysis builds.
