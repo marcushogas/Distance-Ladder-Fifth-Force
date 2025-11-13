@@ -1,0 +1,6 @@
+K0 = -55.55 + 5.10 - 0.45
+relGmax = 0.072 + 0.137 - 0.059
+chi2 = 3561.0
+chi2 (reduced) = 1.02
+Delta AIC = -4.0
+Delta BIC = -16.9
