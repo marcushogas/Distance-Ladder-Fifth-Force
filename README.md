@@ -3,7 +3,7 @@
 Machine-readable data and analysis files accompanying the study  
 **“The paper.”**
 
-This repository provides the proxy-field values, supporting scripts *(optional)*, and related materials *(optional)* used in the hierarchical Bayesian recalibration of the Cepheid–TRGB distance ladder under screened modified-gravity models. The data enable independent verification and reuse of the environmental proxy fields employed in the paper.
+This repository provides all data needed to reproduce our distance-ladder calibration, supporting scripts *(optional)*, and related materials *(optional)* used in the hierarchical Bayesian recalibration of the Cepheid–TRGB distance ladder under screened modified-gravity models. The data enable independent verification and reuse of the environmental proxy fields employed in the paper.
 
 ---
 
