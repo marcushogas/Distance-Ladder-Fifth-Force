@@ -11,7 +11,7 @@ This repository provides all data required to reproduce the distance-ladder cali
 
 - **[data/](/data/)** — Machine-readable tables of proxy-field values for Cepheid and TRGB host galaxies across five cutoff radii $R_{\max} = \{0.4, 1.4, 5.1, 18.1, 50\} \mathrm{Mpc}$, together with the SH0ES distance-ladder data (fourth release) and four TRGB distance calibrations compiled for reproducibility.
 - **[figures/](/figures/)** — Selected plots or figure data used in the paper
-- **results/** — Posterior samples or summary statistics produced in the analysis
+- **[results/](/results/)** — Posterior samples or summary statistics produced in the analysis
 ---
 
 ## Overview
