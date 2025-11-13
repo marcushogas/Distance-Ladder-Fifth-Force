@@ -42,12 +42,10 @@ If you make use of specific external components, please also cite the correspond
 - **SH0ES distance-ladder data:**  
   [Riess et al. (2022), *ApJL* 934, L7](https://iopscience.iop.org/article/10.3847/2041-8213/ac5c5b) — main SH0ES publication  
   SH0ES data release: [PantheonPlusData GitHub](https://github.com/PantheonPlusSH0ES/DataRelease)  
-  Reformatted dataset used here: [Högås et al. (2024), *MNRAS* 528, 2](https://academic.oup.com/mnras/article/538/2/883/8026895), [Cepheid-Distance-Ladder-Data GitHub](https://github.com/MarcusHogas/SH0ES-Reformatted)
+  Reformatted dataset used here: [Högås et al. (2024), *MNRAS* 528, 2](https://academic.oup.com/mnras/article/538/2/883/8026895), [Cepheid-Distance-Ladder-Data GitHub](https://github.com/marcushogas/Cepheid-Distance-Ladder-Data)
 
 - **TRGB distance calibrations:**  
-  Freedman et al. (2020), *ApJ* 891, 57  
-  Freedman et al. (2023), *ApJ* 955, 33  
-  Anand et al. (2021), *ApJ* 919, 16  
-  Hoyt et al. (2023), *ApJ* 956, 64
-
-These sources provide the foundational measurements on which the present analysis builds.
+  [Freedman et al. (2019), *ApJ* 882, 34](https://iopscience.iop.org/article/10.3847/1538-4357/ab2f73)
+  [Anand et al. (2022), *ApJ* 932, 15](https://iopscience.iop.org/article/10.3847/1538-4357/ac68df)
+  [Freedman et al. (2025), *ApJ* 985, 203](https://iopscience.iop.org/article/10.3847/1538-4357/adce78)    
+  [Li et al. (2024), *ApJ* 976, 177](https://iopscience.iop.org/article/10.3847/1538-4357/ad84f3)
