@@ -1,0 +1,11 @@
+Adapted from Table 2 from https://iopscience.iop.org/article/10.3847/1538-4357/ad84f3
+TRGB Calibrator Distances. Calibrated with N4258.
+Galaxy	mu_TRGB	sigma	sigma_sys
+N1448	31.39	0.07	0.02	
+N1559	31.51	0.05	0.01	
+N2525	31.81	0.09	0.04	
+N3370	32.19	0.08	0.02	
+N3447	31.92	0.09	0.01	
+N5584	31.8	0.11	0.07	
+N5643	30.58	0.06	0.01	
+N5861	32.10	0.11	0.02

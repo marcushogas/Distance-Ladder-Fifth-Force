@@ -1,0 +1,15 @@
+Adapted from table 2 from https://iopscience.iop.org/article/10.3847/1538-4357/ac68df
+TRGB Calibrator Distances. Calibrated with N4258.
+Galaxy	mu_TRGB 	sigma	SN	m_B^SC	sigma_B^SC	m_B^CSP	sigma_B^CSP 
+M101	29.08   	0.05	2011fe	9.83    	0.10		9.82     	0.03	
+N1365	31.41     	0.05	2012fr	11.93     	0.13		12.09     	0.03
+N1448	31.33     	0.06	2001el	12.18     	0.09		12.30     	0.04								
+N4038	31.68     	0.14	2007sr	12.30     	0.10		12.30     	0.15								
+N4424	31.00     	0.07	2012cg	11.62     	0.12		11.72     	0.06
+N4536	31.01     	0.13	1981B	11.60     	0.09		11.64     	0.04								
+N5643	30.42     	0.07	2013aa	11.27     	0.14		11.31     	0.09								
+
+
+
+
+
