@@ -47,5 +47,6 @@ If you make use of specific external components, please also cite the correspond
 - **TRGB distance calibrations:**  
   [Freedman et al. (2019), *ApJ* 882, 34](https://iopscience.iop.org/article/10.3847/1538-4357/ab2f73)
   [Anand et al. (2022), *ApJ* 932, 15](https://iopscience.iop.org/article/10.3847/1538-4357/ac68df)
-  [Freedman et al. (2025), *ApJ* 985, 203](https://iopscience.iop.org/article/10.3847/1538-4357/adce78)    
   [Li et al. (2024), *ApJ* 976, 177](https://iopscience.iop.org/article/10.3847/1538-4357/ad84f3)
+  [Freedman et al. (2025), *ApJ* 985, 203](https://iopscience.iop.org/article/10.3847/1538-4357/adce78)    
+
