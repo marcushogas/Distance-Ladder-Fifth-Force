@@ -1,0 +1,13 @@
+Total time = 6828.77 sec
+Walkers = 16
+Iterations = 150000
+Time / interation = 0.05 sec/it
+100 x (estimated auto-corr time) = 98453
+Effective sample size = 2438
+
+H0 prior (Planck) = False
+TRGB anch = None
+Uncscreened core = True
+Proxy p mode = mean
+
+Rmax = 18.1 Mpc
