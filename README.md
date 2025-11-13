@@ -3,7 +3,7 @@
 Machine-readable data and analysis files accompanying the study  
 **“The paper.”**
 
-This repository provides all data needed to reproduce our distance-ladder calibration, supporting scripts *(optional)*, and related materials *(optional)* used in the hierarchical Bayesian recalibration of the Cepheid–TRGB distance ladder under screened modified-gravity models. The data enable independent verification and reuse of the environmental proxy fields employed in the paper.
+This repository provides all data required to reproduce the distance-ladder calibration presented in the paper, together with selected figures and result files. These materials support independent verification and reuse of the environmental proxy fields and derived distance-ladder quantities under screened modified-gravity models.
 
 ---
 
