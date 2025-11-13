@@ -8,7 +8,7 @@ The folder structure is organized by analysis variant:
 - **[TRGB/](/figures/TRGB/)** — Results from distance-ladder calibrations including TRGB distances.  
   Contains one subfolder per TRGB dataset (F19, A22, F24, L24).
 
-- **no_TRGB/** — Results from calibrations using Cepheids only, without TRGB distances.
+- **[no_TRGB/](/figures/no_TRGB/)** — Results from calibrations using Cepheids only, without TRGB distances.
 
 - **H0prior/** — Results obtained when including an external Planck $H_0$ prior.
 
