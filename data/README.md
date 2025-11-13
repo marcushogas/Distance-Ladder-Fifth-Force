@@ -36,7 +36,7 @@ For convenience, we use a **reformatted version** of the same data provided in:
 - [Högås et al. (2024), *MNRAS* 538, 883](https://academic.oup.com/mnras/article/538/2/883/8026895)  
 - Reformatted dataset: [Cepheid-Distance-Ladder-Data GitHub](https://github.com/marcushogas/Cepheid-Distance-Ladder-Data)
 
-The reformatted data preserve the original SH0ES content but are reorganized to facilitate direct use in alternative distance-ladder calibrations, including the analysis presented in this work.
+The reformatted data (**[`C_R22.txt`](/data/C_R22.txt)**, **[`y_R22.txt`](/data/y_R22.txt)**, **[`L_R22.txt`](/data/L_R22.txt)**, **[`q_R22.txt`](/data/q_R22.txt)**) preserve the original SH0ES content but are reorganized to facilitate direct use in alternative distance-ladder calibrations, including the analysis presented in this work.
 
 ---
 
@@ -45,9 +45,9 @@ The reformatted data preserve the original SH0ES content but are reorganized to 
 Four TRGB distance measurements are included for comparison and cross-calibration.  
 These values are taken from the following works:
 
-- [Freedman et al. (2019), *ApJ* 882, 34](https://iopscience.iop.org/article/10.3847/1538-4357/ab2f73)  
-- [Anand et al. (2022), *ApJ* 932, 15](https://iopscience.iop.org/article/10.3847/1538-4357/ac68df)  
-- [Li et al. (2024), *ApJ* 976, 177](https://iopscience.iop.org/article/10.3847/1538-4357/ad84f3)  
-- [Freedman et al. (2025), *ApJ* 985, 203](https://iopscience.iop.org/article/10.3847/1538-4357/adce78)
+- [Freedman et al. (2019), *ApJ* 882, 34](https://iopscience.iop.org/article/10.3847/1538-4357/ab2f73) (**[`TRGB_F19.txt`](/data/TRGB_F19.txt)**)
+- [Anand et al. (2022), *ApJ* 932, 15](https://iopscience.iop.org/article/10.3847/1538-4357/ac68df) (**[`TRGB_A22.txt`](/data/TRGB_A22.txt)**)
+- [Li et al. (2024), *ApJ* 976, 177](https://iopscience.iop.org/article/10.3847/1538-4357/ad84f3) (**[`TRGB_L24.txt`](/data/TRGB_L24.txt)**)
+- [Freedman et al. (2025), *ApJ* 985, 203](https://iopscience.iop.org/article/10.3847/1538-4357/adce78) (**[`TRGB_F24.txt`](/data/TRGB_F24.txt)**)
 
 These TRGB calibrations provide an independent distance scale that complements the Cepheid-based SH0ES ladder.
