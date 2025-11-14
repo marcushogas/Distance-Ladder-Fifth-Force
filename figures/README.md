@@ -10,6 +10,6 @@ The folder structure is organized by analysis variant:
 
 - **[no_TRGB/](/figures/no_TRGB/)** — Results from calibrations using Cepheids only, without TRGB distances.
 
-- **H0prior/** — Results obtained when including an external Planck $H_0$ prior.
+- **[H0prior/](/figures/H0prior/)** — Results obtained when including an external Planck $H_0$ prior.
 
 Each subfolder includes the corresponding posterior plots.
