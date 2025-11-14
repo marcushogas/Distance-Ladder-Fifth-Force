@@ -38,6 +38,50 @@ For convenience, we use a **reformatted version** of the same data provided in:
 
 The reformatted data (**[`C_R22.txt`](/data/C_R22.txt)**, **[`y_R22.txt`](/data/y_R22.txt)**, **[`L_R22.txt`](/data/L_R22.txt)**, **[`q_R22.txt`](/data/q_R22.txt)**) preserve the original SH0ES content but are reorganized to facilitate direct use in alternative distance-ladder calibrations, including the analysis presented in this work.
 
+### Distance-ladder linear model (R22 files)
+
+The postfix `_R22` indicates that these files encode the fourth SH0ES distance-ladder calibration of [Riess et al. (2022)](https://iopscience.iop.org/article/10.3847/2041-8213/ac5c5b) in the linear model  
+$y = Lq$  
+with covariance matrix $C$.
+
+- **[`y_R22.txt`](/data/y_R22.txt)** – data vector $y$ with a source label and value for each row.  
+- **[`C_R22.txt`](/data/C_R22.txt)** – covariance matrix $C$, ordered consistently with `y_R22.txt`.  
+- **[`L_R22.txt`](/data/L_R22.txt)** – design matrix $L$; rows match `y_R22.txt` and columns match `q_R22.txt`.  
+- **[`q_R22.txt`](/data/q_R22.txt)** – parameter names defining the components of $q$.
+
+Using these four files you can reproduce the **standard SH0ES calibration** (without fifth-force corrections) by solving the generalized least-squares problem  
+$q_{\rm ML} = (L^{\mathsf T} C^{-1} L)^{-1} (L^{\mathsf T} C^{-1} y)$,  
+from which  
+$H_0 = 10^{\, q_{\rm ML}(\texttt{5logH0})/5}$.
+
+A minimal Python example:
+
+```python
+import numpy as np
+
+# y: second column ("Data") from y_R22.txt
+names = ('Source', 'Data')
+dtype = {'names': names, 'formats': ('U30', 'f8')}
+y_tab = np.loadtxt("data/y_R22.txt", skiprows=1, dtype=dtype)
+y = y_tab['Data']
+
+# C: covariance; L: design matrix; q_names: parameter labels
+C = np.loadtxt("data/C_R22.txt", delimiter="\t")
+L = np.loadtxt("data/L_R22.txt", delimiter="\t")
+q_names = np.loadtxt("data/q_R22.txt", dtype="U30")
+
+# GLS solution q_ML = (L^T C^{-1} L)^(-1) L^T C^{-1} y
+Cinv = np.linalg.inv(C)         # for production use: Cholesky-based solve
+Sigma_inv = L.T @ Cinv @ L
+rhs = L.T @ Cinv @ y
+q_ML = np.linalg.solve(Sigma_inv, rhs)
+
+# Extract H0 from the component labeled "5logH0"
+i_H0 = np.where(q_names == "5logH0")[0][0]
+H0 = 10.0**(q_ML[i_H0] / 5.0)
+print("H0 (standard SH0ES calibration) =", H0)
+```
+
 ---
 
 ## TRGB distance calibrations
