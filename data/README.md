@@ -52,7 +52,7 @@ with covariance matrix $C$.
 Using these four files you can reproduce the **standard SH0ES calibration** (without fifth-force corrections) by solving the generalized least-squares problem  
 $q_{\rm ML} = (L^{\mathsf T} C^{-1} L)^{-1} (L^{\mathsf T} C^{-1} y)$,  
 from which  
-$H_0 = 10^{\, q_{\rm ML}(\texttt{5logH0})/5}$.
+$H_0 = 10^{q_{\rm ML}(\texttt{5logH0})/5}$.
 
 A minimal Python example:
 
