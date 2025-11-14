@@ -16,7 +16,7 @@ This work investigates whether screened fifth forces—possible deviations from 
 ## Contents
 
 - **[data/](/data/)** — Machine-readable tables of proxy-field values for Cepheid and TRGB host galaxies across five cutoff radii $R_{\max} = \{0.4, 1.4, 5.1, 18.1, 50\} \mathrm{Mpc}$, together with the SH0ES distance-ladder data (fourth release) and four TRGB distance calibrations compiled for reproducibility.
-- **[figures/](/figures/)** — Selected plots or figure data used in the paper
+- **[figures/](/figures/)** — Posterior distributions of the fifth-force parameters for all datasets and model configurations
 - **[results/](/results/)** — Summary statistics and diagnostics produced in the analysis
 ---
 
