@@ -9,13 +9,13 @@ This repository provides all data required to reproduce the distance-ladder cali
 
 ## Overview
 
-This work investigates whether screened fifth forces—possible deviations from General Relativity active in low-density environments—could influence the calibration of the local distance ladder. Using environmental proxy fields for the external gravitational potential ($\Phi$), acceleration ($a$), and curvature ($K$), we recalibrate the Cepheid–TRGB distance ladder within a hierarchical Bayesian framework and quantify the resulting impact on the inferred Hubble constant.
+This work investigates whether screened fifth forces—possible deviations from General Relativity active in low-density environments—could influence the calibration of the local distance ladder. Using environmental proxy fields for the external gravitational potential ($\Phi$), acceleration ($a$), and curvature ($K$), we recalibrate the local distance ladder within a hierarchical Bayesian framework and quantify the resulting impact on the inferred Hubble constant.
 
 ---
 
 ## Contents
 
-- **[data/](/data/)** — Machine-readable tables of proxy-field values for Cepheid and TRGB host galaxies across five cutoff radii $R_{\max} = \{0.4, 1.4, 5.1, 18.1, 50\} \mathrm{Mpc}$, together with the SH0ES distance-ladder data (fourth release) and four TRGB distance calibrations compiled for reproducibility.
+- **[data/](/data/)** — Machine-readable tables of proxy-field values for Cepheid and TRGB host galaxies across five cutoff radii $R_{\max} = \{0.4, 1.4, 5.1, 18.1, 50\} \mathrm{Mpc}$, together with the SH0ES distance-ladder data (fourth release) and four TRGB distance calibrations.
 - **[figures/](/figures/)** — Posterior distributions of the fifth-force parameters for all datasets and model configurations
 - **[results/](/results/)** — Summary statistics and diagnostics produced in the analysis
 ---
