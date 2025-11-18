@@ -1,12 +1,11 @@
 # Results
 
-This folder contains the numerical results produced by the hierarchical Bayesian recalibration of the Cepheid–TRGB distance ladder under screened fifth-force models.  
-For each analysis configuration, three output files are provided, summarizing the inferred fifth-force parameters, model comparison statistics, and diagnostics of the MCMC sampling.
+This folder contains the numerical results and diagnostics produced by the hierarchical Bayesian recalibration of the local distance ladder under screened fifth-force models.
 
 The folder structure is:
 
-- **[SH0ES_plus_TRGB/](/results/SH0ES_plus_TRGB/)** — Results for calibrations including TRGB distances (subfolders F19, A22, F24, L24).  
-- **[SH0ES_only/](/results/SH0ES_only/)** — Results for calibrations based on Cepheids only.  
+- **[SH0ES_plus_TRGB/](/results/SH0ES_plus_TRGB/)** — Results from the joint distance-ladder calibration in which TRGB distances are incorporated together with the SH0ES Cepheid and SNe Ia data. The folder contains one subdirectory for each TRGB dataset (F19, A22, F24, L24). 
+- **[SH0ES_only/](/results/SH0ES_only/)** — Results from distance-ladder calibrations using only the SH0ES Cepheid and SNe Ia data, without incorporating TRGB distances.
 - **[H0prior/](/results/H0prior/)** — Results obtained when including an external Planck $H_0$ prior.
 
 Each dataset–model combination includes the following files:
