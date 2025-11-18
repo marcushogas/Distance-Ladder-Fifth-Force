@@ -3,7 +3,7 @@
 Machine-readable data and analysis files accompanying the study  
 **“The paper.”**
 
-This repository provides all data required to reproduce the distance-ladder calibration presented in the paper, together with selected figures and result files. These materials support independent verification and reuse of the environmental proxy fields and derived distance-ladder quantities under screened modified-gravity models.
+This repository provides all data required to reproduce the distance-ladder calibration presented in the paper, together with selected figures and result files.
 
 ---
 
