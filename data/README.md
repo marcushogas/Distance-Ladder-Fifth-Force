@@ -7,7 +7,7 @@ It includes both the proxy-field values used to model environmental effects and 
 
 ## Proxy-field data
 
-The file **[`Table_I.txt`](/data/Table_I.txt)** provides the proxy-field values used in the analysis for all host galaxies, across multiple cutoff radii $R_{\max}$.
+The file **[`Table_I.txt`](/data/Table_I.txt)** provides the proxy-field values across multiple cutoff radii $R_{\max}$.
 
 Each entry corresponds to a galaxy and a chosen cutoff radius $R_{\max}$, with the following columns:
 
@@ -40,7 +40,7 @@ The reformatted data (**[`C_R22.txt`](/data/C_R22.txt)**, **[`y_R22.txt`](/data/
 
 ### Distance-ladder linear model (R22 files)
 
-The postfix `_R22` indicates that these files encode the fourth SH0ES distance-ladder calibration of [Riess et al. (2022)](https://iopscience.iop.org/article/10.3847/2041-8213/ac5c5b) in the linear model  
+The `_R22` files contain the data from the fourth-iteration SH0ES calibration [(Riess et al. 2022)](https://iopscience.iop.org/article/10.3847/2041-8213/ac5c5b), formatted for use in the linear model  
 $y = Lq$  
 with covariance matrix $C$.
 
@@ -94,4 +94,4 @@ These values are taken from the following works:
 - [Li et al. (2024), *ApJ* 976, 177](https://iopscience.iop.org/article/10.3847/1538-4357/ad84f3) (**[`TRGB_L24.txt`](/data/TRGB_L24.txt)**)
 - [Freedman et al. (2025), *ApJ* 985, 203](https://iopscience.iop.org/article/10.3847/1538-4357/adce78) (**[`TRGB_F24.txt`](/data/TRGB_F24.txt)**)
 
-These TRGB calibrations provide an independent distance scale that complements the Cepheid-based SH0ES ladder.
+These provide distance measurements that complement the Cepheid-based ones and are primarily used in our work as part of a single, joint calibration of the full distance ladder.
