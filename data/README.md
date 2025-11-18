@@ -7,16 +7,16 @@ It includes both the proxy-field values used to model environmental effects and 
 
 ## Proxy-field data
 
-The file **[`Table_I.txt`](/data/Table_I.txt)** provides the proxy-field values used in the analysis for all Cepheid and TRGB host galaxies across multiple cutoff radii $R_{\max}$.
+The file **[`Table_I.txt`](/data/Table_I.txt)** provides the proxy-field values used in the analysis for all host galaxies, across multiple cutoff radii $R_{\max}$.
 
 Each entry corresponds to a galaxy and a chosen cutoff radius $R_{\max}$, with the following columns:
 
 | Column | Description | Unit |
 |---------|--------------|------|
 | Field | Galaxy identifier | – |
-| Phi_low, Phi_mean, Phi_high | Lower, mean, and upper bounds of log₁₀(\|Φ\|/c²) | dex |
-| a_low, a_mean, a_high | Lower, mean, and upper bounds of log₁₀(\|a\|/(km s⁻²)) | dex |
-| K_low, K_mean, K_high | Lower, mean, and upper bounds of log₁₀(\|K\|/cm⁻²) | dex |
+| Phi_low, Phi_mean, Phi_high | Lower (68%), median, and upper (68%) bounds of log₁₀(\|Φ\|/c²) | dex |
+| a_low, a_mean, a_high | Lower (68%), median, and upper (68%) bounds of log₁₀(\|a\|/(km s⁻²)) | dex |
+| K_low, K_mean, K_high | Lower (68%), median, and upper (68%) bounds of log₁₀(\|K\|/cm⁻²) | dex |
 | Rmax | Cutoff radius | Mpc |
 
 These values characterize the large-scale-structure environment of each galaxy and are used to test for screened fifth-force effects in the hierarchical Bayesian recalibration of the distance ladder.
