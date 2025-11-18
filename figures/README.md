@@ -5,10 +5,10 @@ The figures illustrate the inferred distributions of the model parameters $(p_0,
 
 The folder structure is organized by analysis variant:
 
-- **[TRGB/](/figures/TRGB/)** — Results from distance-ladder calibrations including TRGB distances.  
+- **[SH0ES_plus_TRGB/](/figures/SH0ES_plus_TRGB/)** — Results from distance-ladder calibrations including TRGB distances.  
   Contains one subfolder per TRGB dataset (F19, A22, F24, L24).
 
-- **[no_TRGB/](/figures/no_TRGB/)** — Results from calibrations using Cepheids only, without TRGB distances.
+- **[SH0ES_only/](/figures/SH0ES_only/)** — Results from calibrations using Cepheids only, without TRGB distances.
 
 - **[H0prior/](/figures/H0prior/)** — Results obtained when including an external Planck $H_0$ prior.
 
