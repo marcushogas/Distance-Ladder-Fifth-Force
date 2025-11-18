@@ -5,8 +5,8 @@ For each analysis configuration, three output files are provided, summarizing th
 
 The folder structure is:
 
-- **[TRGB/](/results/TRGB/)** — Results for calibrations including TRGB distances (subfolders F19, A22, F24, L24).  
-- **[no_TRGB/](/results/no_TRGB/)** — Results for calibrations based on Cepheids only.  
+- **[SH0ES_plus_TRGB/](/results/SH0ES_plus_TRGB/)** — Results for calibrations including TRGB distances (subfolders F19, A22, F24, L24).  
+- **[SH0ES_only/](/results/SH0ES_only/)** — Results for calibrations based on Cepheids only.  
 - **[H0prior/](/results/H0prior/)** — Results obtained when including an external Planck $H_0$ prior.
 
 Each dataset–model combination includes the following files:
