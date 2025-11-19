@@ -7,7 +7,7 @@ It includes both the proxy-field values used to model environmental effects and 
 
 ## Proxy-field data
 
-The file **[`Table_I.txt`](/data/Table_I.txt)** provides the proxy-field values across multiple cutoff radii $R_{\max}$.
+The file **[`Table_II.txt`](/data/Table_II.txt)** provides the proxy-field values across multiple cutoff radii $R_{\max}$.
 
 Each entry corresponds to a galaxy and a chosen cutoff radius $R_{\max}$, with the following columns:
 
