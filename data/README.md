@@ -94,4 +94,8 @@ These values are taken from the following works:
 - [Li et al. (2024), *ApJ* 976, 177](https://iopscience.iop.org/article/10.3847/1538-4357/ad84f3) (**[`TRGB_L24.txt`](/data/TRGB_L24.txt)**)
 - [Freedman et al. (2025), *ApJ* 985, 203](https://iopscience.iop.org/article/10.3847/1538-4357/adce78) (**[`TRGB_F24.txt`](/data/TRGB_F24.txt)**)
 
+**Important note:**  
+The TRGB distances included in this repository are *not* the full sets reported in the original papers.  
+We include **only those galaxies that overlap with the SH0ES Cepheid-based distance ladder**, since our analysis focuses on a unified Cepheid+TRGB calibration using a common set of SN Ia host galaxies.
+
 These provide distance measurements that complement the Cepheid-based ones and are primarily used in our work as part of a single, joint calibration of the full distance ladder.
