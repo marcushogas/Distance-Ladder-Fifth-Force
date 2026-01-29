@@ -1,7 +1,7 @@
 # Distance-Ladder-Fifth-Force
 
 Machine-readable data and analysis files accompanying the study  
-**“The paper.”**
+**[arXiv:2512.14814](https://arxiv.org/abs/2512.14814)**
 
 This repository provides all data required to reproduce the distance-ladder calibration presented in the paper, together with selected figures and result files.
 
@@ -33,7 +33,7 @@ df = pd.read_csv("data/Table_I.txt", sep="\t", comment="#")
 
 ## Attribution
 If you use the data or method presented in this work, please cite: 
-> arXiv:251X.XXXXX
+> arXiv:2512.14814
 
 This repository compiles both original data products and external datasets gathered for reproducibility.  
 If you make use of specific external components, please also cite the corresponding original sources:
