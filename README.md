@@ -1,7 +1,6 @@
 # Distance-Ladder-Fifth-Force
 
-Machine-readable data and analysis files accompanying the study  
-**[arXiv:2512.14814](https://arxiv.org/abs/2512.14814)**
+Machine-readable data and analysis files accompanying the study **[arXiv:2512.14814](https://arxiv.org/abs/2512.14814)**
 
 This repository provides all data required to reproduce the distance-ladder calibration presented in the paper, together with selected figures and result files.
 
