@@ -1,6 +1,6 @@
 # Data
 
-This folder contains the machine-readable data underlying *“The paper.”*  
+This folder contains the machine-readable data underlying **[arXiv:2512.14814](https://arxiv.org/abs/2512.14814)**.  
 It includes both the proxy-field values used to model environmental effects and the distance-ladder data on which the calibration is based.
 
 ---
